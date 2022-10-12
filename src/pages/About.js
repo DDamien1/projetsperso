@@ -1,8 +1,13 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
+import Logo from '../components/Logo';
+import Navigation from '../components/Navigation';
 
 const About = () => {
     return (
         <div>
+            <Logo />
+            <Navigation />
             <h1>A propos</h1>
             <br />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsa eius magnam veniam molestias dolore adipisci repudiandae omnis. Laborum, rem hic expedita, reprehenderit repudiandae placeat cupiditate quisquam ex, eveniet officiis esse vero nihil maiores dolorum blanditiis asperiores beatae totam! Sit, aspernatur in dolorem, culpa assumenda dignissimos corrupti voluptate expedita itaque magni possimus quia earum, ipsum quibusdam sapiente. Ipsam voluptatem distinctio corporis consequuntur nihil adipisci. Perspiciatis consequatur enim natus id. Perferendis quidem autem, culpa hic expedita exercitationem consectetur magnam esse minus rerum suscipit, vero minima harum corrupti! Laboriosam consequatur sint odio ex animi eaque doloremque ducimus tempore soluta. Nesciunt, earum suscipit..</p>
